@@ -1,0 +1,6 @@
+{
+    "extends": "@strapi-community",
+    "rules": {
+      "react/prop-types": 0
+    }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@jakkph/strapi-plugin-open-ai",
+  "version": "0.0.1",
+  "description": "ChatGPT plugin that allows you to create Open AI completion from a prompt",
+  "strapi": {
+    "name": "open-ai",
+    "description": "ChatGPT plugin that allows you to create Open AI completion from a prompt",
+    "kind": "plugin",
+    "displayName": "Open AI"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14.x.x <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "openai": "^4.16.1"
+  }
+}
